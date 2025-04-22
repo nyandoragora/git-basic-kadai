@@ -1,14 +1,14 @@
 PS C:\Users\kouch\OneDrive\Desktop\Samurai\Git\git_challenge> git init
 Initialized empty Git repository in C:/Users/kouch/OneDrive/Desktop/Samurai/Git/git_challenge/.git/
-PS C:\Users\kouch\OneDrive\Desktop\Samurai\Git\git_challenge> git add helloworld.txt
-PS C:\Users\kouch\OneDrive\Desktop\Samurai\Git\git_challenge> git commit -m "hello,worldを追加"
-[main (root-commit) 8573894] hello,worldを追加
+PS C:\Users\kouch\OneDrive\Desktop\Samurai\Git\git_challenge> git add hello_world.txt
+PS C:\Users\kouch\OneDrive\Desktop\Samurai\Git\git_challenge> git commit -m "Hello,world!を追加"
+[main (root-commit) 8573894] Hello,world!を追加
  1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 helloworld.txt
-PS C:\Users\kouch\OneDrive\Desktop\Samurai\Git\git_challenge> git add helloworld.txt           
+ create mode 100644 hello_world.txt
+PS C:\Users\kouch\OneDrive\Desktop\Samurai\Git\git_challenge> git add hello_world.txt           
 PS C:\Users\kouch\OneDrive\Desktop\Samurai\Git\git_challenge> git commit -m "日本語訳を追記"
 [main fa7fdb4] 日本語訳を追記
  1 file changed, 2 insertions(+)
 PS C:\Users\kouch\OneDrive\Desktop\Samurai\Git\git_challenge> git log --oneline
 fa7fdb4 (HEAD -> main) 日本語訳を追記
-8573894 hello,worldを追加
+8573894 Hello,world!を追加
